@@ -1,6 +1,6 @@
 class CreateTwees < ActiveRecord::Migration[5.2]
   def change
-    create_table :twees do |t|
+    create_table :tweets do |t|
 
         t.string      :name
         t.text        :text
